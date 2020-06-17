@@ -1,0 +1,459 @@
+/* 
+Acámica
+Carrera: Desarrollo Web Full Stack
+Trabajo: Proyecto "gifOS"
+Nombre: Uladislao Pérez Elizalde  
+*/
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; }
+
+.body {
+    background-color: rgb(15, 0, 58);
+    font-family: 'Chakra Petch', sans-serif; }
+
+
+
+/* Encabezado, logo y menu */
+.barra1 {
+    height: 23px;
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+    font-family: 'Chakra Petch';
+    font-size: 12px;
+    color: #FFFFFF;
+    letter-spacing: 0; }
+
+.bienvenidos {
+    padding-top: 3px;
+    margin-left: 5px; }
+
+.menu{
+    display: flex; }
+
+.logo{
+    margin-top: 35px;
+    width: 105px;
+    height: 60px; }
+
+.navegador {
+    display: flex; }
+
+.crear {
+    width: 144px;
+    height: 36px;
+    margin-top: 44px;
+    background-color: #EE3EFE;
+    border: 1px solid #110038;
+    margin-right: 16px;
+    font-family: 'Chakra Petch';
+    font-size: 15px;
+    color: white;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 18px;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF; }
+
+.crear:hover {
+    border: 1px solid #110038;
+    background-color: rgb(255, 155, 245);
+    cursor: pointer;
+    outline: 1px dotted #110038;
+    outline-offset: -6px; }
+
+.crear:active {
+    border: 1px solid #110038;
+    background-color: rgb(255, 155, 245);
+    cursor: pointer;
+    outline: 1px dotted #110038;
+    outline-offset: -6px; }
+
+.btns-temas {
+    display: flex; }
+
+.tema {
+    width: 131px;
+    height: 36px;
+    margin-top: 44px;
+    margin-right: -5px;
+    background-color: #EE3EFE;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+    line-height: 18px;
+    letter-spacing: 0;
+    color: white;
+    font-family: 'Chakra Petch';
+    font-size: 15px; }
+
+.tema:hover {
+    border: 1px solid #110038;
+    background-color: rgb(255, 155, 245);
+    cursor: pointer;
+    outline: 1px dotted #110038;
+    outline-offset: -6px; }
+
+.tema:active {
+    border: 1px solid #110038;
+    background-color: rgb(255, 155, 245);
+    cursor: pointer;
+    outline: 1px dotted #110038;
+    outline-offset: -6px; }
+
+.flechita {
+    margin-top: 44px;
+    width: 36px;
+    height: 36px;
+    background-color: #EE3EFE;
+    border: 1px solid #110038;
+    margin-left: 0px;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF; }
+
+.flechita:hover {
+    border: 1px solid #110038;
+    background-color: rgb(255, 155, 245);
+    cursor: pointer;
+    outline: 1px dotted #110038;
+    outline-offset: -6px; }
+
+.flechita:active {
+    border: 1px solid #110038;
+    background-color: rgb(255, 155, 245);
+    cursor: pointer;
+    outline: 1px dotted #110038;
+    outline-offset: -6px; }
+
+.themes {
+    width: 162px;
+    height: 102px;
+    background-color: #E6E6E6;
+    position: absolute;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF; }
+
+.dn {
+    text-decoration: underline;
+    padding-left: 15px; }
+
+.day {
+    font-family: 'Chakra Petch';
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 22px;
+    text-align: left;
+    width: 150px;
+    height: 36px;
+    margin-top: 10px;
+    margin-left: 7px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF; }
+
+.day:hover {
+    background: #2E32FB;
+    color: white; }
+
+.night {
+    font-family: 'Chakra Petch';
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 22px;
+    text-align: left;
+    width: 150px;
+    height: 36px;
+    margin-top: 5px;
+    margin-left: 7px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF; }
+
+.night:hover {
+    background: #2E32FB;
+    color: white; }
+
+.subrayado {
+    text-decoration: underline; }
+
+.mis {
+    margin-top: 53px;
+    margin-left: 15px;
+    text-decoration: none;
+    color: white; }
+
+.mis:hover {
+    cursor: pointer;
+    outline: 1px dotted white;
+    outline-offset: 5px; }
+
+.mis:active {
+    color: grey;
+    outline: none;
+    outline-offset: none;
+    font-size: 16px; }
+/* Encabezado, logo y menu */
+
+
+
+/* Buscador, menu desplegable, botones de sugerencia */
+.buscador {
+    width: 1200px;
+    height: 100px;
+    margin-top: 40px;
+    background-color: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF; }
+
+.buscar{
+    height: 24px;
+    width: 100%;
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+    color: white;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF; }
+
+.palabraBuscar {
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px; }
+
+.buscar2 {
+    display: flex; }
+
+.input1 {
+    display: flex;
+    height: 48px;
+    width: 1057px;
+    margin-right: 0px ;
+    margin-left: 15px;
+    margin-top: 12px;
+    border: 1px solid #979797;
+    box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000; }
+
+::placeholder {
+    font-family: 'Chakra Petch';
+    font-size: 16px;
+    color: #B4B4B4;
+    letter-spacing: 0;
+    line-height: 22px;  
+    padding-left: 15px; }
+
+.boton-buscar {
+    width: 102px;
+    height: 36px;
+    margin-left: 10px;
+    margin-top: 17.5px;
+    display: flex;
+    border: 1px solid #808080;
+    background-color: #E6E6E6;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF; }
+
+.boton-buscar:active {
+    border: 1px solid #110038;
+    cursor: pointer;
+    outline: 1px dotted #110038;
+    outline-offset: -6px; }
+
+.lupita {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 16px;
+    height: 16px; }
+
+.palabraBtn {
+    font-family: 'Chakra Petch';
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 18px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    margin-right: 15px; }
+
+.ult-busquedas {
+    position: absolute;
+    width: 1200px;
+    height: 160px;
+    background-color: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF; }
+
+.b1 {
+    font-family: 'Chakra Petch';
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 22px;
+    text-align: left;
+    background: #F0F0F0;
+    width: 1055px;
+    height: 34px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF; }
+
+.b1:hover {
+    background: #E6E6E6; }
+
+.b2 {
+    font-family: 'Chakra Petch';
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 22px;
+    text-align: left;
+    background: #F0F0F0;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+    width: 1055px;
+    height: 34px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    margin-top: 5px; }
+
+.b2:hover {
+    background: #E6E6E6; }
+
+.b3 {
+    font-family: 'Chakra Petch';
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 22px;
+    text-align: left;
+    background: #F0F0F0;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+    width: 1055px;
+    height: 34px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-top: 5px; }
+
+.b3:hover {
+    background: #E6E6E6; }
+
+.btnsug {
+    padding-left: 15px; }
+
+.botonesLS {
+    margin-top: 10px;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    width: 1200px; }
+
+.botonesLS li {
+    margin: 5px 10px 5px 0; }
+
+.btnsLS {
+    font-family: 'Chakra Petch';
+    font-size: 14px;
+    padding: 10px 5px;
+    background-color: #4180F6;
+    color: #FFFFFFFF;
+    border: 1px solid #4C2F99;
+    box-shadow: inset -1px -1px 0 0 #284F99, inset 1px 1px 0 0 #FFFFFF; }
+/* Buscador, menu desplegable, botones de sugerencia */
+
+
+
+/* Sugerencias */
+.input2 {
+    margin-top: 30px;
+    margin-bottom: 16px;
+    height: 32px;
+    width: 1225px;
+    background-color: #FFFFFF;
+    border: 1px solid #E6BBE2;
+    box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D; }
+
+.tendencias {
+    display: flex;
+    margin-bottom: 68px;
+    width: 1200px; }
+
+.ten1 {
+    width: 280px;
+    height: 298px;
+    border: 1px solid #110038;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF; }
+
+.jpimg:hover {
+    border: 1px solid #110038;
+    cursor: pointer;
+    outline: 1px dotted #110038;
+    outline-offset: -6px; }
+
+.barra-tendencias {
+    display: flex;
+    width: 100%;
+    height: 24px;
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+    color: white;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;}
+
+.cruz {
+    margin-right: 10px; }
+
+.sug {
+    margin-left: 5px;
+    padding-top: 2px;
+    font-size: 15px; }
+
+.ver-mas {
+    font-family: 'Chakra Petch';
+    font-size: 14px;
+    margin-top: 230px;
+    margin-left: -270px;
+    width: 81px;
+    height: 34px;
+    background-color: #4180F6;
+    color: white;
+    position: absolute;
+    border: 1px solid #4C2F99;
+    box-shadow: inset -1px -1px 0 0 #284F99, inset 1px 1px 0 0 #FFFFFF; }
+/* Sugerencias */
+
+
+
+/* Tendencias y resultados de busquedas */
+.input3 {
+    height: 32px;
+    width: 1225px;
+    background-color: #FFFFFF;
+    margin-bottom: 17px;
+    border: 1px solid #E6BBE2;
+    box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D; }
+
+.barras {
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px; }
+
+.imgs1 {
+    width: 1290px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); }
+
+.contTitle {
+    background: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%); 
+    z-index: 1;
+    width: 305px; 
+    height: 25px;
+    margin-top: -40px;
+    overflow: hidden }
+
+.divGif {
+    height: 295px;
+    width: 305px;
+    margin-bottom: 10px; }
+
+.divGif:hover {
+    border: 1px solid #110038;
+    cursor: pointer;
+    outline: 1px dotted #110038;
+    outline-offset: -6px; }
+/* Tendencias y resultados de busquedas */

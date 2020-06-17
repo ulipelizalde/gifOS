@@ -1,0 +1,282 @@
+/* 
+Acámica
+Carrera: Desarrollo Web Full Stack
+Trabajo: Proyecto "gifOS"
+Nombre: Uladislao Pérez Elizalde  
+*/
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box; }
+
+.body {
+    background-color: #FFF4FD;
+    font-family: 'Chakra Petch', sans-serif; }
+
+
+
+/* Encabezado y logo */    
+.barra1 {
+    height: 23px;
+    background-image: linear-gradient(to right, #4180F6, #F7C9F3);
+    font-family: 'Chakra Petch';
+    font-size: 12px;
+    color: #FFFFFF;
+    letter-spacing: 0; }
+
+.bienvenidos {
+    padding-top: 3px;
+    margin-left: 5px; }
+
+.menu {
+    display: flex; }
+
+.arrow {
+    margin-left: 60px;
+    margin-right: 0px;
+    margin-top: 40px; }
+
+.logo{
+    margin-top: 35px;
+    width: 105px;
+    height: 60px;
+    margin-left: 15px; }
+/* Encabezado y logo */  
+
+
+
+/* Primer contenedor */
+.c1 {
+    width: 860px;
+    height: 548px;
+    background-color: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF; }
+
+.cg {
+    display: flex;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+    height: 24px;
+    width: 100%;
+    margin-top: 38px;
+    background-image: linear-gradient(to right, #4180F6, #F7C9F3);
+    color: white; }
+
+.tituloCaja {
+    display: flex;
+    margin-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    font-size: 15px; }
+    
+.cruz {
+    position: relative;
+    margin-right: 10px; }
+
+.aqui {
+    font-size: 16px;
+    display: flex;
+    color: black;
+    margin-top: 57px;
+    margin-bottom: 17px;
+    margin-left: 73px;
+    font-weight: 900; }
+
+.window {
+    margin-left: -40px;
+    margin-right: 10px;
+    height: 33px;
+    width: 33px; }
+
+.parrafo {
+    font-size: 16px;
+    color: black;
+    margin-left: 73px;
+    margin-right: 93px; }
+
+.negrita1 {
+    font-weight: 900;
+    font-style: italic; }
+
+.negrita {
+    font-weight: 900; }
+
+.cancelar{
+    font-family: 'Chakra Petch';
+    font-size: 16px;
+    margin-left: 344px;
+    margin-top: 28px;
+    margin-right: 16px;
+    width: 144px;
+    height: 36px;
+    background-color: #FFF4FD;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF; }
+
+.comenzar {
+    font-family: 'Chakra Petch';
+    font-size: 16px;
+    margin-top: 25px;
+    width: 144px;
+    height: 36px;
+    background-color: #F7C9F3;
+    margin-left: 0px;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF; }
+/* Primer contenedor */
+
+
+
+/* Segundo contenedor */
+.botones {
+    display: flex; }
+
+.camarita{
+    width: 36px;
+    height: 36px;
+    background-color: #F7C9F3;
+    margin-left: 663px;
+    margin-top: 25px;
+    margin-right: 0px;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.video1 {
+    width: 90%;
+    display: flex;
+    height: 434px;
+    background-color: white;
+    margin-top: 11px;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF; }
+/* Segundo contenedor */
+
+
+
+/* Tercer contenedor */
+.video {
+    width: 832px;
+    height: 434px;
+    background-color: white;
+    margin-left: 14px;
+    margin-top: 11px;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF; }
+/* Tercer contenedor */
+
+
+
+/* Cuarto contenedor */
+.globo {
+    width: 48px;
+    height: 48px;
+    margin-top: 139px;
+    margin-left: 395px; }
+
+.estamos {
+    color: black;
+    margin-top: 8px;
+    margin-left: 315px; }
+
+.barra-carga {
+    width: 324px;
+    height: 24px;
+    background-color: rgba(206, 206, 206, 0.6);
+    margin-top: 39px;
+    display: flex; }
+
+.carguita {
+    border: 0.5px solid #bdbdbd;
+    width: 20px;
+    height: 24px;
+    background: #F7C9F3; }
+
+.carguita1 {
+    border: 0.5px solid #bdbdbd;
+    width: 20px;
+    height: 24px; }
+
+.tiempo {
+    color: #110038;
+    margin-top: 10px;
+    margin-left: 305px; }
+/* Cuarto contenedor */
+
+
+
+/* Ultimo contenedor */
+.c6 {
+    width: 721px;
+    height: 391px;
+    background-color: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF; }
+
+.contenedor-gifo-subido {
+    width: 637px;
+    height: 192px;
+    margin-top: 56px;
+    margin-left: 27px;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF; }
+
+.gif-subido {
+    width: 365px;
+    height: 190px; }
+
+.caja {
+    display: flex; }
+
+.texto {
+    font-weight: 900;
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin-top: 75px;
+    margin-left: 25px; }
+
+.copiar-enlace {
+    font-family: 'Chakra Petch';
+    font-size: 16px;
+    background-color: #FFF4FD;
+    width: 256px;
+    height: 36px;
+    margin-top: 15px;
+    margin-left: 25px;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF; }
+
+.listo2 {
+    font-family: 'Chakra Petch';
+    font-size: 16px;
+    background-color: #F7C9F3;
+    width: 144px;
+    height: 36px;
+    margin-top: 60px;
+    margin-left: 530px;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF; }
+/* Ultimo contenedor */
+
+
+
+/* Mis Guifos */
+.input3 {
+    height: 32px;
+    width: 1225px;
+    background-color: #FFFFFF;
+    margin-bottom: 17px;
+    margin-top: 100px;
+    border: 1px solid #E6BBE2;
+    box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D; }
+
+.barras {
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px; }
+
+.imgs1 {
+    width: 1290px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); }
+/* Mis Guifos */

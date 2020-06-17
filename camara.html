@@ -1,0 +1,178 @@
+<!-- 
+Acámica
+Carrera: Desarrollo Web Full Stack
+Trabajo: Proyecto "gifOS"
+Nombre: Uladislao Pérez Elizalde 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link id="hojaDeEstilo" rel="stylesheet" href="css/camaraNight.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap" rel="stylesheet">
+    <script src="https://www.WebRTC-Experiment.com/RecordRTC.js"></script>
+    <title>gifOS</title>
+</head>
+
+<body class="body">
+
+
+
+<!-- Encabezado, logo, botones navegadores -->
+<header>
+    <div class="barra1">
+        <p class="bienvenidos">¡Bienvenidos/as a Guifos.com! ——————Donde los gifs están.////// Número de visitas: 12.765.803</p>
+    </div>
+
+    <div class="menu">
+        <img src="imgs/arrow.svg" alt="arrow" class="arrow" id="arrow">  
+        <img class="logo" src="imgs/gifOF_logo.png" alt="logo" id="logo">
+    </div>    
+</header>
+<!-- Encabezado, logo, botones navegadores -->
+
+
+
+<!-- Primer seccion -->
+<section>
+<div class="c1" id="c1">
+    <div class="cg">
+        <h3 class="tituloCaja">Crear Guifos</h3>
+        <img class="cruz" alt="cruz" src="imgs/button3.svg">
+    </div>
+        <h4 class="aqui"><img class="window" alt="window" src="imgs/window.png">Aquí podrás crear tus propios guifos</h4>
+        <p class="parrafo">Crear tu <span class="negrita1">guifo</span> es muy fácil, graba cualquier imagen con tu cámara y obtén guifos personalizados. Los pasos para crear tu guifo son:<br><br>
+            <span class="negrita">1)</span> Dar permisos de acceso a la cámara (sólo por el tiempo de uso)<br><br>
+            <span class="negrita">2)</span> Capturar tu momento guifo<br><br>
+            <span class="negrita">3)</span> Revisar el momento<br><br>
+            <span class="negrita">4)</span> Listo para subir y compartir!<br><br>
+            ¿Quieres comenzar a crear tu <span class="negrita1">guifo</span> ahora?</p>
+        <button class="cancelar" id="cancelar1" onclick="">Cancelar</button>
+        <button class="comenzar" id="comenzar" onclick="">Comenzar</button>
+</div>
+</section>
+<!-- Primer seccion -->
+
+
+
+<!-- Segunda/Tercera seccion -->
+<section>
+<div class="c1" id="c2">
+    <div class="cg">
+        <h3 class="tituloCaja" id="chequeo">Un Chequeo Antes de Empezar</h3>
+        <h3 class="tituloCaja" id="capturando">Capturando Tu Guifo</h3>
+        <img class="cruz" alt="cruz" src="imgs/button3.svg">
+    </div>
+    <div class="cont-video">
+        <video class="video1" id="video"></video>
+    </div>
+    <div class="botones" id="botones1">
+        <button class="camarita" id="camarita" ><img alt="camera" src="imgs/camera.svg"></button>
+        <button class="comenzar" id="capturar" onclick="">Capturar</button>
+    </div>
+    <div class="botones" id="botones2">
+        <button class="camarita" id="recording" ><img alt="record" src="imgs/recording.svg"></button>
+        <button class="comenzar" id="listo" onclick="">Listo</button>
+    </div>
+</div>
+</section>
+<!-- Segunda/Tercera seccion -->
+
+
+
+<!-- Cuarta seccion -->
+<section>
+<div class="c1" id="c4">
+    <div class="cg">
+        <h3 class="tituloCaja" id="previa">Vista Previa</h3>
+        <img class="cruz" alt="cruz" src="imgs/button3.svg">
+    </div>
+    <img class="video" alt="video" id="pre-gif" src="#">
+    <div class="botones" >
+        <button class="comenzar1" id="repetir" onclick="">Repetir Captura</button>
+        <button class="comenzar" id="subir" onclick="">Subir Guifo</button>
+    </div>
+</div>
+</section>
+<!-- Cuarta seccion -->
+
+
+
+<!-- Quinta seccion -->
+<section>
+<div class="c1" id="c5">
+    <div class="cg">
+        <h3 class="tituloCaja" id="subiendo">Subiendo Guifo</h3>
+        <img class="cruz" alt="cruz" src="imgs/button3.svg">
+    </div>
+    <div class="video" id="blanco" >
+        <img class="globo" alt="globo" src="imgs/globe_img.png">
+        <p class="estamos" id="estamos">Estamos subiendo tu guifo…</p>
+        <div class="barra-carga" id="barra-carga">
+            <div class="carguita"></div>
+            <div class="carguita"></div>
+            <div class="carguita"></div>
+            <div class="carguita"></div>
+            <div class="carguita"></div>
+            <div class="carguita"></div>
+            <div class="carguita"></div>
+            <div class="carguita"></div>
+            <div class="carguita"></div>
+            <div class="carguita"></div>
+            <div class="carguita"></div>
+            <div class="carguita"></div>
+            <div class="carguita"></div>
+            <div class="carguita"></div>
+            <div class="carguita"></div>
+            <div class="carguita"></div>
+            <div class="carguita1"></div>
+        </div>
+        <p class="tiempo" id="tiempo" >Tiempo restante: 1 minuto</p>
+    </div>
+    <div class="botones" >
+        <button class="comenzar" id="cancelar2" onclick="">Cancelar</button>
+    </div>
+</div>
+</section>
+<!-- Quinta seccion -->
+
+
+
+<!-- Sexta seccion -->
+<section>
+<div class="c6" id="c6">
+    <div class="cg" id="cg2"><h3 class="tituloCaja">Gifo subido con éxito</h3><img class="cruz" alt="cruz" src="imgs/button3.svg"></div>
+    
+    <div class="caja">
+        <div class="contenedor-gifo-subido">
+            <img class="gif-subido" id="gif-subido" alt="gifSubido" src="#">
+        </div>
+        <div class="caja2">
+            <p class="texto">Gifo creado con éxito</p>
+            <button class="copiar-enlace" id="copiar-enlace">Copiar Enlace Guifo</button>
+            <button class="copiar-enlace" id="descargar-gifo">Descargar Guifo</button>
+        </div>
+    </div>
+    <button class="listo2" id="listo2">Listo</button>
+</div>
+</section>
+<!-- Sexta seccion -->
+
+
+
+<!-- Mis guifOS -->
+<section>
+<div class="input3"><p class="barras" id="tendencias">Mis Guifos:</p></div>
+
+<div class="imgs1" id="imgs1"></div>
+</section>
+<!-- Mis guifOS -->
+
+
+
+<script src="js/camara.js"></script>
+</body>
+
